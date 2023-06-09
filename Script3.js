@@ -84,11 +84,30 @@ let birthYear = [2001, 1995, 1998, 1973, 2021]
 
 let arr3 = [2, 10, 12, 50, 30]
 //104
+// 2+10+12+50+30
+
+//xyz
 
 
+let addition = 0 //2 //12 //24 //74 //104
 for (let i = 0; i < arr3.length; i++) {
-    console.log(arr3[i])
+    // console.log(i)//index
+    // console.log(arr3[i])//array element
+    addition = addition + arr3[i]
+
+    //0+2 ==> 2
+    //2+10 ==> 12
+    //12+12 ==>24
+    //24+50 => 74
+    //74+30==> 104
+
 }
+
+console.log(addition)
+
+// let x=0
+// x=x+10
+// console.log(x)
 
 
 
