@@ -115,6 +115,12 @@ console.log(p1)//3
 console.log(str.indexOf('g'))//-1
 
 
+//toUpperCase()
+//toLowerCase()
+//includes()
+//indexOf()
+
+
 
 
 
